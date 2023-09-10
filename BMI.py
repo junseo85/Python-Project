@@ -1,4 +1,4 @@
-
+# program that interprets the Body Mass Index(BMI) based on a user's weight and height.
 height = float(input("enter your height in m: "))
 weight = float(input("enter your weight in kg: "))
 
