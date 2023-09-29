@@ -108,4 +108,3 @@ play_game = input("Do you want to play a game of Blackjack? Type 'y' or 'n':")
 if play_game == 'y':
     balckjack_game(random_card, computer_start_card)
 
-play_game = input("Do you want to play a game of Blackjack? Type 'y' or 'n':")
