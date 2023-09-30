@@ -9,6 +9,7 @@ random_number = random.randint(0, 100)
 def guess_number(difficulty):
     if difficulty == 'easy':
         easy = 10
+        print(f"You have {easy} attemps remaining to guess the number.")
         user_input = int(input("Make a guess: "))
         make_guess = True
         while make_guess is True:
@@ -33,6 +34,7 @@ def guess_number(difficulty):
                 make_guess = False
     if difficulty == 'hard':
         hard = 5
+        print(f"You have {hard} attemps remaining to guess the number.")
         user_input = int(input("Make a guess: "))
         make_guess = True
         while make_guess is True:
