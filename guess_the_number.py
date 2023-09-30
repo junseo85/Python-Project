@@ -6,9 +6,6 @@ print("I'm thinking of a number between 1 and 100.")
 difficulty = input("Choose a difficulty. Type 'easy' or 'hard': ")
 random_number = random.randint(0, 100)
 
-hard = 5
-
-
 def guess_number(difficulty):
     if difficulty == 'easy':
         easy = 10
